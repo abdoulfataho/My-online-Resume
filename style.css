@@ -14,6 +14,25 @@ body{
 
 }
 
+@media(min-width: 200px) {
+    #name {
+
+        font-size: 16px;
+    }
+    
+
+}
+
+@media(min-width: 200px) {
+    #name {
+        
+        font-size: 16px;
+    }
+    
+
+}
+
+
 .container{
     position: relative;
     width: 100%;
@@ -123,3 +142,34 @@ margin: 20px 0;
 
     
 }
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Responsive typography */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Mobile styles (default) */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Tablet styles */
+  @media (min-width: 601px) and (max-width: 768px) {
+    h1 {
+      font-size: 22px;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 769px) {
+    h1 {
+      font-size: 26px;
+    }
+  }
+  
